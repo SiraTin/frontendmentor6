@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0D1A2D;
+    font-family: "Quicksand", sans-serif;
+}
+
+hr{
+    margin: 30px 0 20px 0;
+    opacity: 0.1;
+}
+
+.container{
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    background-color: #15263F;
+    margin: 150px auto 50px auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 25px 5px 15px #0b1424, 10px 20px 10px 50px #0C192C;
+}
+
+.icon_view{
+    position: absolute;
+    left: 126px;
+    bottom: 120px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.card_img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+    top: 30px; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.backdrop{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: cyan;   
+    border-radius: 10px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.color_view{
+    width: 100%;
+    background-color: cyan;
+}
+
+.card_img:hover .icon_view{
+    opacity: 1;
+  }
+
+.card_img:hover .backdrop{
+    opacity: 0.3;
+  }
+
+.equilibrium{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.card_body{
+    text-align: left;
+    padding: 22px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.text_hover{
+    margin-bottom: 20px;
+}
+
+.text_hover:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.card_body>.description{
+    margin-bottom: 20px;
+    color: #88AAD7;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ethereum_text{
+    color: cyan;
+    font-weight: 800;
+}
+
+.day_text{
+    color: #88AAD7;
+}
+
+
+
+.c-gap{
+    margin-left: 10px;
+}
+
+.blue_text{
+    color: #99B1CF;
+}
+
+.image_avatar{
+    width: 32px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
+
+.text-hover:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.custom_m{
+    margin-bottom: 10px;
+}
+
+.attribution{
+    color: #fff;
+    margin-top: 100px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+
+
